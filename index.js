@@ -21,7 +21,7 @@ let numero = 1
 //numero começa em 1
 
 while(numero <= 100) {
-    if(numero%3 === 0 && numero % 5 === 0) {
+    if(numero % 3 === 0 && numero % 5 === 0) {
     console.log("FizzBuzz")
     } else if(numero % 3 === 0) {
     console.log("Fizz")
